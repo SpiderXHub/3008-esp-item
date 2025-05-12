@@ -60,7 +60,7 @@ local function createESP(model)
     }
 end
 
--- Function to update ESP size based on distance
+
 local function updateESP()
     for model, esp in pairs(espItems) do
         if model.Parent then
